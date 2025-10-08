@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabelas Responsivas</title>
+    <title>Site de Teste</title>
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
+            background-color:  lightblue;
+            color: white;
         }
 
         table{
@@ -20,12 +22,16 @@
         }
 
         th,td{
-            border: 1px solid black;
+            border: 3px solid black;
             padding: 10px;
         }
 
         tr:nth-child(even){
-            background-color: rgb(228, 228, 228);
+            background-color:  #99EDCC;
+        }
+
+        tr:nth-child(odd){
+            background-color:  #9AC4F8;
         }
 
         div#container{
@@ -35,11 +41,8 @@
     </style>
 </head>
 <body>
-    <h1>Tabelas em telas pequenas</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem laboriosam consequatur quo dignissimos aspernatur quam inventore. Ducimus et culpa, provident animi quae repellendus, quis, libero assumenda nulla ratione tempora blanditiis.</p>
-    <div id="container">
-        <table>
-            <caption>Tabelas Responsivas</caption>
+    <table>
+            <caption>Vendas Mensais</caption>
             <thead>
                 <tr>
                     <th>Produto</th>
@@ -135,6 +138,5 @@
                 </tr>
             </tbody>
         </table>
-    </div>
 </body>
 </html>
